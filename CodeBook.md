@@ -22,7 +22,7 @@ mean_mean|The mean of the mean variable across the combination of subject and ac
 mean_std|As mean_mean, but for the standard deviation.
 
 The measurements in the data set are listed in the following table. The description of each measurement can be found on the [website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) the data is based on:
- |measurement
+Nr|measurement
 _|-----------
 1|fBodyAccJerkX
 2|fBodyAccJerkY
