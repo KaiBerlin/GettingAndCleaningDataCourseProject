@@ -1,5 +1,7 @@
 # Activity Data Code Book
 
+## Original data source and description
+
 The data is based on this [website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 Basic description of the original dataset from the [website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones):
@@ -29,7 +31,9 @@ measurement|Labels the measurement that is done (the feature - only those are pr
 mean_mean|The mean of the mean feature variable across the combination of subject and activity (if subject = "All", then mean_mean contains the mean of the mean of the variable across all activities; if activity = "All", then mean_mean contains the mean of the mean of the feature variable across all subjects
 mean_std|As mean_mean, but for the mean of the standard deviation.
 
-The measurements in the data set are listed in the following table. The description of each measurement can be found on the [website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) the data is based on:
+## The measurements in the data
+
+The measurements in the (clean) data sets are listed in the following table. The description of each measurement can be found on the [website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) the data is based on:
 
 Nr|measurement
 --|-----------
