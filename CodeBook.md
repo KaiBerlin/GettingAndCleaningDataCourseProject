@@ -23,13 +23,15 @@ mean|The mean of the feature variable
 std|The standard deviation of the feature variable
 
 ## meanActivityData dataset
+
 Field name|Description
 ----------|-----------
 subject|Identifies the subject that carried out the activities. There are 30 subjects
 activity|Identifies the activity as string. There are six different activities (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
 measurement|Labels the measurement that is done (the feature - only those are present for which mean and standard deviation are in the file).
-mean_mean|The mean of the mean feature variable across the combination of subject and activity (if subject = "All", then mean_mean contains the mean of the mean of the variable across all activities; if activity = "All", then mean_mean contains the mean of the mean of the feature variable across all subjects
+mean_mean|The mean of the mean feature variable across the combination of subject and activity. If subject = "All", then mean_mean contains the mean of the mean of the variable across all activities; if activity = "All", then mean_mean contains the mean of the mean of the feature variable across all subjects.
 mean_std|As mean_mean, but for the mean of the standard deviation.
+
 
 ## The measurements in the data
 
