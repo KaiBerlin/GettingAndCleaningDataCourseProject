@@ -15,17 +15,17 @@ Reads the data from the various files into data.frames (and adds a few names alr
 The data for one observation is spread over several data.frames as read from the files. This sections binds together the columns - subjects, yTrain/yTest containing the activities (coded - later *activityLabels* will be used to replace the integers by clear names) and finally the measurements. In a second step training and test data is joined.
 
 ### Step 2 - reduce to only means and standard deviations
-The final dataset should only contain means and standard deviations, so everything is removed (using *grep*)
+The final dataset should only contain means and standard deviations, so everything is removed (using *grep*). 
 
 ### Step 3 - perform join to descriptive activity names
 Now the data.frame is joined with the activityLabels data to get descriptive labels. This is only performed now because it changes the order or rows.
 
 ### Step 4 - make the data "long"
-The data currently contains many observation (taking on of the mean/std devivations measured as one observation) - we are going to make this long, such that one measurement is in one row only.
+The data currently contains many observation (taking on of the mean/std devivations measured as one observation) - we are going to make this long, such that one measurement (feature) is in one row only, showing mean and standard deviation of this feature variable. Also the names of the feature variable are improved (removing brackets etc.) using gsub.
 
-The result is the first tidy dataset. this is the long form as mentioned in the rubric as either long or wide form is acceptable	 
+The result is the first tidy dataset. this is the long form as mentioned in the rubric as either long or wide form is acceptable	 .
 
 ### Step 5 - create a second tiny data set with means of each variable
-Uses (d)plyr to calculate means of each variable/observation
+Uses (d)plyr to calculate means of each variable/observation.
 
-## Why is the original data not clean?
+

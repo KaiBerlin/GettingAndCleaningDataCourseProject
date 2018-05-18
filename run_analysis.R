@@ -56,7 +56,7 @@ names(allData)[2] <- "activity"
 # already done as part of the above
 
 # now we make it long, assuming that one observation consists of
-# - subkject
+# - subcject
 # - activity
 # - variable (e.g. fBodyAccJerkX, i.e. including the axis if it exists)
 # ... and variables are
